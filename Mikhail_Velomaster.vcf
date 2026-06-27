@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Смирнов;Михаил;;;
+FN:Михаил Веломастер
+ORG:SmirnovBikeService
+TEL;TYPE=CELL;TYPE=PREF:+79117923525
+URL;TYPE=VK:https://vk.com/smirnovbikeservice
+NOTE:Ремонт и обслуживание велосипедов. Telegram: @SmirnovBikeService
+END:VCARD

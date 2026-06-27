@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f7f9fb" />
+    <title>Smirnov Bike Service — ремонт, прокат и товары на Королёва 68</title>
+    <meta
+      name="description"
+      content="Локальная веломастерская Smirnov Bike Service: ремонт велосипедов, прокат с расчетом цены, будущие товары и быстрые контакты через Telegram Mini App. Королёва 68, Санкт-Петербург."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Smirnov Bike Service — веломастерская и прокат" />
+    <meta property="og:description" content="Ремонт, прокат, будущие товары и быстрые контакты веломастерской на Королёва 68." />
+    <meta property="og:image" content="./assets/workshop-bike.jpg" />
+    <meta property="og:locale" content="ru_RU" />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="preload" href="./assets/workshop-bike.jpg" as="image" />
+    <link rel="stylesheet" href="./styles.css?v=3" />
+    <script defer src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <script defer src="./script.js?v=6"></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Smirnov Bike Service",
+        "description": "Веломастерская, прокат велосипедов и будущие товары",
+        "telephone": "+79117923525",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Королёва 68",
+          "addressLocality": "Санкт-Петербург",
+          "addressCountry": "RU"
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Thursday", "Friday"],
+            "opens": "14:00",
+            "closes": "22:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Saturday", "Sunday"],
+            "opens": "10:00",
+            "closes": "22:00"
+          }
+        ],
+        "sameAs": ["https://t.me/SmirnovBikeService", "https://vk.com/smirnovbikeservice"]
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#hero" aria-label="Smirnov Bike Service, наверх">
+        <span class="brand-mark" aria-hidden="true"><i data-lucide="bike"></i></span>
+        <span>
+          <strong>Smirnov Bike Service</strong>
+          <small>мастерская и прокат</small>
+        </span>
+      </a>
+
+      <nav class="nav-links" aria-label="Основная навигация">
+        <a href="#services">Услуги</a>
+        <a href="#app">Mini App</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+
+      <a class="header-cta" href="tel:+79117923525">
+        <i data-lucide="phone"></i>
+        <span>Позвонить</span>
+      </a>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="hero" aria-labelledby="hero-title">
+        <div class="hero-media" aria-hidden="true">
+          <img src="./assets/workshop-bike.jpg" alt="" width="1280" height="960" />
+        </div>
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-content reveal">
+          <p class="eyebrow">Королёва 68 · ремонт · прокат · товары</p>
+          <h1 id="hero-title">Веломастерская, в которую удобно вернуться</h1>
+          <p class="hero-copy">
+            Ремонтируем городские, горные и шоссейные велосипеды, выдаём прокат, показываем цены аренды и будущие товары через Telegram Mini App.
+          </p>
+
+          <div class="hero-actions" aria-label="Основные действия">
+            <a class="button primary" href="https://t.me/SmirnovVeloServicebot">
+              <i data-lucide="send"></i>
+              <span>Открыть Telegram Mini App</span>
+            </a>
+            <a class="button secondary" href="tel:+79117923525">
+              <i data-lucide="phone"></i>
+              <span>Позвонить</span>
+            </a>
+            <a class="button glass" href="https://yandex.by/maps/-/CPttBFNJ" target="_blank" rel="noopener">
+              <i data-lucide="map-pin"></i>
+              <span>Построить маршрут</span>
+            </a>
+          </div>
+
+          <dl class="hero-proof" aria-label="Ключевые факты">
+            <div>
+              <dt>от 1 ч</dt>
+              <dd>цены проката</dd>
+            </div>
+            <div>
+              <dt>14–22</dt>
+              <dd>пн, вт, чт, пт</dd>
+            </div>
+            <div>
+              <dt>ср</dt>
+              <dd>выходной</dd>
+            </div>
+            <div>
+              <dt>10–22</dt>
+              <dd>сб, вс</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="section services" id="services" aria-labelledby="services-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Что можно сделать</p>
+            <h2 id="services-title">Основное без лишней бюрократии</h2>
+            <p>Сайт не пытается заменить мастера. Он помогает быстро понять, куда нажать дальше.</p>
+          </div>
+
+          <div class="service-grid">
+            <article class="service-card reveal">
+              <i data-lucide="wrench"></i>
+              <h3>Ремонт велосипедов</h3>
+              <p>Диагностика, настройка тормозов и трансмиссии, замена расходников, подготовка к сезону.</p>
+            </article>
+            <article class="service-card reveal">
+              <i data-lucide="bike"></i>
+              <h3>Прокат велосипедов</h3>
+              <p>Городские, MTB и прогулочные велосипеды. В Mini App можно посмотреть велосипеды и цену по времени.</p>
+            </article>
+            <article class="service-card reveal">
+              <i data-lucide="warehouse"></i>
+              <h3>Зимнее хранение</h3>
+              <p>Аккуратное хранение велосипеда с возможностью проверки перед выдачей весной.</p>
+            </article>
+            <article class="service-card reveal">
+              <i data-lucide="shopping-bag"></i>
+              <h3>Товары и расходники</h3>
+              <p>Цепи, камеры, колодки, смазки и аксессуары. В Mini App уже есть раздел будущих товаров.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section trust" aria-labelledby="trust-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Почему спокойно</p>
+            <h2 id="trust-title">Нормальная мастерская без тумана в смете</h2>
+          </div>
+
+          <div class="trust-grid">
+            <article class="trust-item reveal">
+              <i data-lucide="timer"></i>
+              <h3>Быстро по делу</h3>
+              <p>Сначала понятная диагностика, потом решение: делать сейчас, заказать деталь или отложить.</p>
+            </article>
+            <article class="trust-item reveal">
+              <i data-lucide="shield-check"></i>
+              <h3>Честная диагностика</h3>
+              <p>Не меняем рабочее ради чека. Объясняем, что критично, а что можно пережить.</p>
+            </article>
+            <article class="trust-item reveal">
+              <i data-lucide="component"></i>
+              <h3>Нормальные комплектующие</h3>
+              <p>Подбираем детали по совместимости, бюджету и реальному сценарию катания.</p>
+            </article>
+            <article class="trust-item reveal">
+              <i data-lucide="map"></i>
+              <h3>Удобная точка</h3>
+              <p>Королёва 68. Можно быстро построить маршрут и сразу связаться с мастером.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section app-block" id="app" aria-labelledby="app-title">
+        <div class="container app-shell reveal">
+          <div class="app-copy">
+            <p class="eyebrow">Telegram Mini App</p>
+            <h2 id="app-title">Mini App помогает быстро выбрать прокат, товары и контакт</h2>
+            <p>
+              Клиент открывает Telegram, смотрит велосипеды, выбирает длительность аренды, видит итоговую цену и быстро находит телефон, ВКонтакте, маршрут и часы работы.
+            </p>
+            <a class="button primary dark" href="https://t.me/SmirnovVeloServicebot">
+              <i data-lucide="send"></i>
+              <span>Открыть Mini App</span>
+            </a>
+          </div>
+
+          <div class="app-preview" aria-label="Возможности Mini App">
+            <div class="phone-frame">
+              <div class="phone-top"></div>
+              <div class="balance-card">
+                <span>Прокат от</span>
+                <strong>320 ₽</strong>
+                <small>в час при аренде на день</small>
+              </div>
+              <div class="mini-grid">
+                <span>Прокат</span>
+                <span>Товары</span>
+                <span>Контакты</span>
+                <span>Маршрут</span>
+              </div>
+              <div class="mini-list">
+                <p><i data-lucide="check-circle-2"></i> Расчет цены аренды</p>
+                <p><i data-lucide="check-circle-2"></i> Карточки будущих товаров</p>
+                <p><i data-lucide="check-circle-2"></i> Телефон, группа в Telegram, ВКонтакте и карта</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section gallery-section" id="gallery" aria-labelledby="gallery-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Визуально</p>
+            <h2 id="gallery-title">Мастерская, прокат и детали в одном месте</h2>
+          </div>
+
+          <div class="gallery-grid">
+            <figure class="gallery-item large reveal">
+              <img src="./assets/workshop-bike.jpg" alt="Велосипед в мастерской Smirnov Bike Service" width="1280" height="960" />
+              <figcaption>Мастерская</figcaption>
+            </figure>
+            <figure class="gallery-item tall reveal">
+              <img loading="lazy" src="./assets/workshop-photo-1.jpg" alt="Велосипед и рабочая зона мастерской" width="960" height="1280" />
+              <figcaption>Рабочая зона</figcaption>
+            </figure>
+            <figure class="gallery-item wide reveal">
+              <img loading="lazy" src="./assets/workshop-photo-2.jpg" alt="Велосипед после обслуживания" width="1280" height="960" />
+              <figcaption>Велосипед после обслуживания</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reviews" id="reviews" aria-labelledby="reviews-title">
+        <div class="container">
+          <div class="review-head reveal">
+            <div class="section-heading">
+              <p class="eyebrow">Отзывы</p>
+              <h2 id="reviews-title">Что говорят на Яндекс.Картах</h2>
+              <p>Три живых отзыва рядом с быстрым переходом на карточку мастерской.</p>
+            </div>
+            <a class="map-review-link" href="https://yandex.by/maps/-/CPt25QK-" target="_blank" rel="noopener">
+              <span class="stars" aria-label="Оценка 5 из 5">★★★★★</span>
+              <strong>22 отзыва</strong>
+              <small>Смотреть на Яндекс.Картах</small>
+              <i data-lucide="arrow-up-right"></i>
+            </a>
+          </div>
+
+          <div class="review-grid">
+            <article class="review-card reveal">
+              <span class="stars" aria-hidden="true">★★★★★</span>
+              <p>“Отличный пункт проката, рядом с домом, внимательный и доброжелательный Михаил, все расскажет и покажет. Мастер, профессионал, хороший выбор великов, рекомендую однозначно.”</p>
+              <footer>Едемская Ольга · 29 марта</footer>
+            </article>
+            <article class="review-card reveal">
+              <span class="stars" aria-hidden="true">★★★★★</span>
+              <p>“Один из лучших велосервисов по ремонту и прокату! Миша человек с огромным опытом, решит любой вопрос, связанный с велосипедом: от настройки переключателя до ремонта карбоновой рамы.”</p>
+              <footer>Игорь Igor · 21 апреля</footer>
+            </article>
+            <article class="review-card reveal">
+              <span class="stars" aria-hidden="true">★★★★★</span>
+              <p>“Обслуживаю свои велосипеды у Миши с 2023 года. Всегда всё аккуратно, точно и очень профессионально. Отличный сервис, которому действительно можно доверять. Рекомендую.”</p>
+              <footer>Даниил Г. · 23 марта</footer>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section faq" aria-labelledby="faq-title">
+        <div class="container faq-layout">
+          <div class="section-heading reveal">
+            <p class="eyebrow">FAQ</p>
+            <h2 id="faq-title">Коротко перед визитом</h2>
+          </div>
+
+          <div class="faq-list reveal">
+            <article class="faq-item">
+              <button class="faq-question" type="button" aria-expanded="false">Нужно ли записываться?</button>
+              <div class="faq-answer" hidden>
+                <p>Лучше написать или позвонить заранее, особенно в сезон. Так мастер сразу подскажет окно по времени.</p>
+              </div>
+            </article>
+            <article class="faq-item">
+              <button class="faq-question" type="button" aria-expanded="false">Сколько занимает ремонт?</button>
+              <div class="faq-answer" hidden>
+                <p>От 1 дня. Базовые настройки часто удаётся сделать быстро, а если нужна редкая деталь или сложный ремонт, мастер сразу назовёт понятный срок.</p>
+              </div>
+            </article>
+            <article class="faq-item">
+              <button class="faq-question" type="button" aria-expanded="false">Есть ли прокат?</button>
+              <div class="faq-answer" hidden>
+                <p>Да. Велосипеды и цену по длительности аренды можно посмотреть в Telegram Mini App, а детали уточнить у мастера.</p>
+              </div>
+            </article>
+            <article class="faq-item">
+              <button class="faq-question" type="button" aria-expanded="false">Что есть в Telegram Mini App?</button>
+              <div class="faq-answer" hidden>
+                <p>Прокат с расчетом цены, будущие товары, контакты, телефон, группа в Telegram, ВКонтакте, режим работы и маршрут до мастерской.</p>
+              </div>
+            </article>
+            <article class="faq-item">
+              <button class="faq-question" type="button" aria-expanded="false">Где находится мастерская?</button>
+              <div class="faq-answer" hidden>
+                <p>Санкт-Петербург, Королёва 68. Кнопка маршрута откроет точку в Яндекс.Картах.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contacts" id="contacts" aria-labelledby="contacts-title">
+        <div class="container contact-panel reveal">
+          <div>
+            <p class="eyebrow">Контакты</p>
+            <h2 id="contacts-title">Связаться проще, чем искать раздел “заявка”</h2>
+            <p>Позвоните, откройте Mini App, напишите во ВКонтакте или сразу постройте маршрут до мастерской.</p>
+          </div>
+
+          <div class="contact-list">
+            <a href="tel:+79117923525">
+              <i data-lucide="phone"></i>
+              <span>8 (911) 792-35-25</span>
+            </a>
+            <a href="./Mikhail_Velomaster.vcf">
+              <i data-lucide="user-plus"></i>
+              <span>Сохранить контакт</span>
+            </a>
+            <a href="https://t.me/SmirnovBikeService">
+              <i data-lucide="send"></i>
+              <span>Группа в телеграме</span>
+            </a>
+            <a href="https://vk.com/smirnovbikeservice" target="_blank" rel="noopener">
+              <i data-lucide="message-circle"></i>
+              <span>Группа ВКонтакте</span>
+            </a>
+            <a href="https://yandex.by/maps/-/CPttBFNJ" target="_blank" rel="noopener">
+              <i data-lucide="map-pin"></i>
+              <span>Королёва 68, Санкт-Петербург</span>
+            </a>
+            <div>
+              <i data-lucide="clock"></i>
+              <span>Пн, Вт, Чт, Пт 14:00–22:00 · среда выходной · Сб, Вс 10:00–22:00</span>
+            </div>
+          </div>
+
+          <div class="contact-map" aria-label="Карта до мастерской Smirnov Bike Service">
+            <iframe
+              title="Smirnov Bike Service на карте"
+              src="https://yandex.ru/map-widget/v1/?text=SmirnovBikeService%20%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D1%91%D0%B2%D0%B0%2068&z=14"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <div class="map-caption">
+              <div>
+                <strong>Smirnov Bike Service</strong>
+                <span>Королёва 68 · можно сориентироваться прямо на сайте</span>
+                <span class="map-hint"><i data-lucide="search"></i> Нажмите на лупу на карте</span>
+              </div>
+              <a href="https://yandex.by/maps/-/CPttBFNJ" target="_blank" rel="noopener">
+                <i data-lucide="route"></i>
+                <span>Маршрут</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-actions">
+            <a class="button primary" href="https://t.me/SmirnovVeloServicebot">
+              <i data-lucide="send"></i>
+              <span>Открыть Mini App</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <span>© Smirnov Bike Service</span>
+        <a href="#hero">Наверх</a>
+      </div>
+    </footer>
+  </body>
+</html>
